@@ -51,3 +51,8 @@ if (userAge >= 65){
     priceUser = ((priceUser / 100) * (100 - discount20));
 }  
 console.log(priceUser);
+
+// Messaggio alert costo del viaggio
+const messagePrice = (`Il costo del viaggio è di \€ ${priceUser}`);
+console.log(messagePrice);
+alert (messagePrice);
