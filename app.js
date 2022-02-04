@@ -31,3 +31,15 @@ console.log(priceKm);
 // Prezzo km inseriti dall'utente
 var priceUser = kmUtente * priceKm;
 console.log(priceUser);
+
+
+// Sconto del 20%
+const discount20 = 20;
+console.log(discount20);
+
+
+// Sconto del 40%
+const discount40 = 40;
+console.log(discount40);
+
+
