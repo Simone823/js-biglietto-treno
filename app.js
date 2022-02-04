@@ -8,7 +8,7 @@ if (isNaN(kmUtente)) {
     alert ("Inserisci un numero");
     kmUtente = parseInt (prompt("Quanti chilometri vuoi percorrere? (Digita qui il numero di km)" ));
 }
-console.log(kmUtente);
+// console.log(kmUtente);
 
 
 // Chiedo all'utente quanti anni ha
@@ -20,5 +20,14 @@ if (isNaN(userAge)){
     alert("Digita un numero");
     userAge = parseInt (prompt("Quanti anni hai? (Digita qui)"));
 }
-console.log(userAge);
+// console.log(userAge);
 
+
+// Prezzo al km (0.21 al KM)
+const priceKm = 0.21;
+console.log(priceKm); 
+
+
+// Prezzo km inseriti dall'utente
+var priceUser = kmUtente * priceKm;
+console.log(priceUser);
