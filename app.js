@@ -46,5 +46,8 @@ console.log(discount40);
 // Se l'utente ha 65 o più anni applico lo sconto del 40%
 if (userAge >= 65){
     priceUser = ((priceUser / 100) * (100 - discount40)); 
-}
+} // Se l'utente è minorenne applico lo sconto del 20%
+  else if (userAge < 18){
+    priceUser = ((priceUser / 100) * (100 - discount20));
+}  
 console.log(priceUser);
