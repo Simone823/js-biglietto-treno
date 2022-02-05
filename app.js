@@ -52,7 +52,11 @@ if (userAge >= 65){
 }  
 console.log(priceUser);
 
+// Seleziono quante cifre voglio visualizzare dopo la virgola
+priceUser = priceUser.toFixed(2);
+console.log(priceUser);
+
 // Messaggio alert costo del viaggio
-const messagePrice = (`Il costo del viaggio è di \€ ${priceUser}`);
+const messagePrice = (`Il costo del viaggio è di ${priceUser} \€`);
 console.log(messagePrice);
 alert (messagePrice);
